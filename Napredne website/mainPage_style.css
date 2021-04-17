@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(28, 24, 24);
+    color: coral;
+    position: fixed;
+    line-height: 85px;
+    font-size: 20px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("mainPageSlike/learn_easy.jpg"); 
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+header a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*#divZaSliku
+{
+    width: 100%;
+    padding: 0px;
+    padding-top: 85px;
+}*/
+
+.divovi{        /*#firstSteps, #Basics*/
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#firstSteps h1{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+}
+
+#firstSteps p{
+    text-align: left;
+}
+
+#slika_ispod_menija{
+    display: inline-block;
+    width: 100%;
+}
+
+#fingers{
+    width: 40%;
+    height: 20%;
+}
+
+#basics01 a{
+    color: white;
+}
+
+#basics01 a:link {
+    background-color: #3a3838;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#basics01 a:hover {
+    background-color: #242323;
+}
+
+#naslov_basics{
+    width: 100%;
+    text-align: center;
+    margin: auto
+}
+#naslov_basics h1{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+}
+
+#pom_div01{
+    text-align: left;
+}
+
+#chord_image{
+    width: 40%;
+    height: 40%;
+}
+
+#div_ispod_slike_chords{
+    text-align: left;
+}
+
+#div_za_el_gitaru{
+    text-align: center;
+    height: 800px;
+    background-image: url('mainPageSlike/playingGuitar2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    /*position: relative;*/
+}
+
+/*#slika_el_gitare{
+    height: 100%;
+    filter: brightness(70%);
+}*/
+  
+  /* Bottom right text 
+  .text-block {
+    position: absolute;
+    bottom: 10%;
+    right: 27%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+  }*/
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    object-fit: fill;
+    width: 50%;
+    /*padding: 10px;*/
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+.row{
+    width: 100%;
+    /*border: solid blue;*/
+    /*margin-right: 30px;*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#slika_pwrch{
+    background-image: url('mainPageSlike/a-power-chord.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#tekst_pored_slike{
+    font-size: 25px;
+    text-align: left;
+    padding-top: 150px;
+    padding-right: 10px;
+}
+
+#slika_eadgbe{
+    background-image: url('mainPageSlike/eadgbe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+#tekst_eadgbe{
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+#pesme_za_ucenje{
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+

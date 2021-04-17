@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: white;
+    /*border: solid red;*/
+}
+
+header {
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(28, 24, 24);
+    color: coral;
+    position: fixed;
+    line-height: 85px;
+    font-size: 20px;
+}
+
+header a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("ContactSlike/contact2.jpg"); 
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div_ispod_headera{
+    padding-left: 20%;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    object-fit: fill;
+    width: 50%;
+    /*padding: 10px;*/
+    height: 700px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+.row{
+    width: 100%;
+    /*border: solid blue;*/
+    /*margin-right: 30px;*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#div01 h1{
+    padding-left: 10%;
+}
+
+#div01 p{
+    padding-left: 10%;
+    padding-right: 25%;
+    font-size: 20px;
+}
+
+#div02 h1{
+    padding-left: 10%;
+}
+
+#div02 form{
+    padding-left: 10%;
+}
+
+.in1{
+    width: 70%;
+}
+
+.in2{
+    width: 70%;
+    height: 150px;
+}
+
+#div_za_gif{
+    padding-left: 10%;
+    margin: auto;
+}
+
+#div02 a:link {
+    background-color: #427eff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#div02 a:hover {
+    background-color: #2a74ff;
+}
+
+#pomdiv{
+    padding-left: 10%;
+}
+

@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: rgb(241, 241, 241);
+    /*border: solid red;*/
+}
+
+header {
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(28, 24, 24);
+    color: coral;
+    position: fixed;
+    line-height: 85px;
+    font-size: 20px;
+}
+
+header a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("GuitarSlike/guitar_shop.jpg"); 
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div_ispod_headera h1{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+}
+
+#div_ispod_headera{
+    padding-left: 20%;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    object-fit: fill;
+    width: 50%;
+    /*padding: 10px;*/
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+.row{
+    width: 100%;
+    /*border: solid blue;*/
+    /*margin-right: 30px;*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#gibson{
+    background-image: url('GuitarSlike/gibson.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.linija{
+    border-left: 2px solid grey;
+    border-style: medium;
+}
+
+.info_text{
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+    font-size: 23px;
+    font-style: oblique;
+}
+
+#fender_str{
+    background-image: url('GuitarSlike/fender_str.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#fender_tle{
+    background-image: url('GuitarSlike/fender_tle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+#es_335{
+    background-image: url('GuitarSlike/es_335.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.boja1{
+    background-color: rgb(139, 169, 179);
+}
+
+.boja2{
+    background-color: rgb(173, 140, 140);
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+table{
+    width: 40%;
+    margin: auto;
+}
+
+#div_za_tabelu{
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+
